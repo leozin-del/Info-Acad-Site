@@ -1,0 +1,205 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+}
+
+
+
+/* Estilo para o menu */
+ul.menu {
+    background-color: #333131;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul.menu li {
+    display: inline-flex;
+    background-color: #201f1f;
+    box-shadow: 5px 5px 10px #812424;
+    margin: 20px;
+    border-radius: 20px;
+    margin-left: 250px;
+    text-align: center;
+    margin-right: 20px;
+    
+}
+
+ul.menu li a {
+    font-family: serif;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 20px;
+    color: rgb(255, 252, 252);
+    text-decoration: none;
+}
+a:link {
+    text-shadow: 5px 5px 15px rgb(255, 255, 255);
+}
+
+.banner {
+    background-image: url('https://greenlifeacademias.com.br/wp/wp-content/uploads/2017/08/shutterstock_553542439.jpg');
+    background-size: 50%;
+    height: 200px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.menu {
+    box-shadow: 5px 5px 10px black;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-size: 100%;
+    
+}
+nav ul li a:hover {
+        transform: scale(0.8);     
+}
+
+/* inicio da Landing Page */
+.conteudo {
+   justify-content: center;
+   text-align: center;
+   padding: 0;
+   margin: 0;
+   color: #ffffff;
+   
+}
+.titulo-2 {
+    font-size: 50px;
+    
+}
+.paragrafo {
+    font-size: 25px;
+    font-family: monospace;
+    color: #c9bfbf;
+}
+h2 {
+    font-size: 50px;
+    margin-top: 100px;
+    text-shadow: 2px 2px 8px #a79a9a;
+    
+}
+
+.inicio {
+    border-radius: 5px;
+    background-color: #333131;
+    margin-top: 100px;
+    margin-right: 50px;
+    margin-left: 50px;
+    padding: 60px;
+    box-shadow: 10px 10px 15px black;
+}
+.itens {
+    background-color: #333131;
+    margin-top: 100px;
+    margin-right: 50px;
+    margin-left: 50px;
+    padding: 60px;
+    box-shadow: 10px 10px 15px #000000;
+
+}
+ul.lista {
+    list-style: circle;
+    text-align: center;
+    font-size: 25px;
+    padding: 50px;
+    color: #c9bfbf;
+    font-family: monospace;
+}
+.titulo-3 {
+    margin-top: 100px;
+    font-size: 50px;
+}
+
+.flex  {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+    
+}
+.img-1 {
+    display: flex ;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    width: 400px;
+    height: 750px;
+    border-radius: 5px;
+    background-color: #333131;
+    margin-top: 100px;
+    margin-right: 50px;
+    margin-left: 50px;
+    padding: 60px;
+    box-shadow: 10px 10px 15px #000000
+    
+}
+
+.imagens {
+    height: 420px;
+    width: 400px;
+    border-radius: 4px;
+    box-shadow: 5px 5px 15px #000000;
+}
+.img-1:hover {
+    transform: scale(0.9);
+}
+.nomes {
+    font-size: 50px;
+
+}
+.biografia {
+    text-align: center;
+    font-size: 20px;  
+    font-family: monospace;
+    font-style: italic;
+    color: #ffffff; 
+    text-shadow: 1px 1px 3px white;
+    
+}
+.nomes-fi {
+    margin-top: 20px;
+}
+footer {
+    margin-top: 400px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    background-color: #302f2f; 
+    padding: 20px;
+    text-align: center; 
+}
+
+.rodape ul {
+    padding-bottom: 100px;
+}
+.rodape {
+    color: #faf8f8 ;
+    text-shadow:2px 2px 5px #ffffff; 
+}
+.rodape ul li {
+    padding: 10px;  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
